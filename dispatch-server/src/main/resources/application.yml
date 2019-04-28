@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: dispatch-server
+#  cloud:
+#    config:
+#      #指定配置服务中心地址
+#      uri: http://localhost:8888/
+#      profile: dev
+server:
+  port: 8760
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  retryable: false
+  routes:
+    data-a:
+      path: /user/**
+      serviceId: data-server-a
+    data-b:
+      path: /alarm/**
+      serviceId: data-server-b

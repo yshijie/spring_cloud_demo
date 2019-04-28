@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: data-server-b
+#  cloud:
+#    config:
+#      #指定配置服务中心地址
+#      uri: http://localhost:8888/
+#      profile: dev
+server:
+  port: 8762
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
