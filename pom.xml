@@ -53,6 +53,7 @@
         </dependency>
     </dependencies>
 
+    <!-- test -->
     <build>
         <plugins>
             <plugin>
