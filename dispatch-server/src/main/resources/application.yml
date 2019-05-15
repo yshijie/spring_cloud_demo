@@ -16,8 +16,12 @@ zuul:
   retryable: false
   routes:
     data-a:
-      path: /user/**
+#      path: /user/**
+#      path: /uuu/**
+      path: /**
       serviceId: data-server-a
     data-b:
-      path: /alarm/**
+#      path: /alarm/**
+#      path: /uuu/**
+      path: /**
       serviceId: data-server-b
