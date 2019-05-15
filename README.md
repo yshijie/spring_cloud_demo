@@ -7,7 +7,7 @@ spring_cloud demo project
 
 注册中心--Eureka  [GitPress](https://gitpress.io/@yangshijie/spring_cloud_eureka) 、 [简书](https://www.jianshu.com/p/ec8f5b8da5cf)
 
-动态路由--Zuul
+动态路由--Zuul  [GitPress](https://gitpress.io/@yangshijie/spring_cloud_zuul)、[简书](https://www.jianshu.com/p/4d058b79b3dc)
 
 负载均衡--Ribbon
 
